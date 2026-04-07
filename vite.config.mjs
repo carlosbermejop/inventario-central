@@ -3,6 +3,7 @@ import { defineConfig } from 'vite';
 
 export default defineConfig({
   plugins: [react()],
+  base: "/inventario-central/",
   test: {
     globals: true,
     environment: 'jsdom',
